@@ -9,7 +9,7 @@ import { map, catchError } from 'rxjs/operators';
 })
 export class PokemonService {
 
-  private api: string = "http://pokeapi.co/api/v2/pokemon";
+  private api: string = "https://pokeapi.co/api/v2/pokemon";
 
   constructor(
     private http: HttpClient
